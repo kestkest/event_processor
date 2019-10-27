@@ -12,6 +12,3 @@ def create_app(settings):
     app.register_blueprint(events, url_prefix='/api/v1')
 
     return app
-
-
-# app = create_app('settings.py')
