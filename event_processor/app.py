@@ -1,7 +1,7 @@
 from flask import Flask
 
-from event_processor.db import db
-from event_processor.events.views import events
+from .db import db
+from .events.views import events
 
 
 def create_app(settings):
